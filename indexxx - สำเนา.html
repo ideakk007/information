@@ -1,0 +1,3016 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>for you</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Prompt", sans-serif;
+      }
+      .mySlides {
+        display: none;
+      }
+      .w3-tag,
+      .fa {
+        cursor: pointer;
+      }
+      .w3-tag {
+        height: 15px;
+        width: 15px;
+        padding: 0;
+        margin-top: 6px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Links (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-row w3-large w3-light-grey">
+        <div class="w3-col s3">
+          <a href="#" class="w3-button w3-block">หวยรายวัน</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#plans" class="w3-button w3-block">หวยหุ้น</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#about" class="w3-button w3-block">หวยหุ้น VIP</a>
+        </div>
+        <div class="w3-col s3">
+          <a href="#contact" class="w3-button w3-block">หวยอื่นๆ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div
+      class="w3-content"
+      style="max-width: 1100px; margin-top: 80px; margin-bottom: 80px"
+    >
+      <div class="w3-panel">
+        <h2><b>หวยรายวัน</b></h2>
+        <p>***ออกผลทุกวัน***</p>
+      </div>
+
+
+      <div class="w3-container">
+        <table class="table  table-bordered table-hover mb-5 shadow">
+          <thead class="table-dark">
+            <tr>
+              <th>ประเภทหวย</th>
+              <th class="text-center">เวลาปิดรับ</th>
+              <th class="text-center">เวลาออกผล</th>
+              <th class="text-center">ข้อมูล</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวExtra
+              </td>
+              <td class="text-center">08:20</td>
+              <td class="text-center">08:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#lax"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอยอาเซียน
+              </td>
+              <td class="text-center">09:05</td>
+              <td class="text-center">09:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnas"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาว TV
+              </td>
+              <td class="text-center">10:20</td>
+              <td class="text-center">10:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#latv"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย HD
+              </td>
+              <td class="text-center">11:05</td>
+              <td class="text-center">11:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnhd"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวพิเศษ
+              </td>
+              <td class="text-center">11:50</td>
+              <td class="text-center">12:00</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#lapp"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอยสตาร์
+              </td>
+              <td class="text-center">12:05</td>
+              <td class="text-center">12:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnst"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาว HD
+              </td>
+              <td class="text-center">13:35</td>
+              <td class="text-center">13:45</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#lahd"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย TV
+              </td>
+              <td class="text-center">14:05</td>
+              <td class="text-center">14:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vntv"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวสตาร์
+              </td>
+              <td class="text-center">15:30</td>
+              <td class="text-center">15:45</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#last"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอยกาชาด
+              </td>
+              <td class="text-center">16:05</td>
+              <td class="text-center">16:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnkk"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอยสามัคคี
+              </td>
+              <td class="text-center">17:05</td>
+              <td class="text-center">17:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnck"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย พิเศษ
+              </td>
+              <td class="text-center">17:05</td>
+              <td class="text-center">17:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnพิเศษ"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย ปกติ
+              </td>
+              <td class="text-center">18:05</td>
+              <td class="text-center">18:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnปกติ"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย VIP
+              </td>
+              <td class="text-center">19:05</td>
+              <td class="text-center">19:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#vnvip"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอยพัฒนา
+              </td>
+              <td class="text-center">19:05</td>
+              <td class="text-center">19:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ฮานอยพัฒนา"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวสามัคคี
+              </td>
+              <td class="text-center">20:15</td>
+              <td class="text-center">20:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวสามัคคี"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวอาเซียน
+              </td>
+              <td class="text-center">20:50</td>
+              <td class="text-center">21:00</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวอาเซียน"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาว VIP
+              </td>
+              <td class="text-center">21:15</td>
+              <td class="text-center">21:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวVIP"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวสามัคคี VIP
+              </td>
+              <td class="text-center">21:20</td>
+              <td class="text-center">21:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวสามัคคีVIP"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวสตาร์ VIP
+              </td>
+              <td class="text-center">21:40</td>
+              <td class="text-center">22:00</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวสตาร์VIP"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                  height="25"
+                />
+                ฮานอย Extra
+              </td>
+              <td class="text-center">22:05</td>
+              <td class="text-center">22:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ฮานอยx"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                  height="25"
+                />
+                ลาวกาชาด
+              </td>
+              <td class="text-center">23:20</td>
+              <td class="text-center">20:30</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ลาวกาชาด"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    
+
+    
+
+      <!-- Grid -->
+      <div class="w3-center w3-padding-64"  id="plans">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          >หวยหุ้น</span
+        >
+      </div>
+
+
+        <div class="w3-container">
+          <table class="table table-bordered table-hover mb-5 shadow">
+            <thead class="table-dark">
+              <tr>
+                <th>ประเภทหวย</th>
+                <th class="text-center">เวลาปิดรับ</th>
+                <th class="text-center">เวลาออกผล</th>
+                <th class="text-center">ข้อมูล</th>
+              </tr>
+            </thead>
+            <tbody>
+<!--<tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  นิเคอิ รอบเช้า
+                </td>
+                <td class="text-center">09:20</td>
+                <td class="text-center">08:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lax"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยอาเซียน
+                </td>
+                <td class="text-center">09:05</td>
+                <td class="text-center">09:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnas"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว TV
+                </td>
+                <td class="text-center">10:20</td>
+                <td class="text-center">10:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#latv"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย HD
+                </td>
+                <td class="text-center">11:05</td>
+                <td class="text-center">11:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnhd"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวพิเศษ
+                </td>
+                <td class="text-center">11:50</td>
+                <td class="text-center">12:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lapp"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยสตาร์
+                </td>
+                <td class="text-center">12:05</td>
+                <td class="text-center">12:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnst"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว HD
+                </td>
+                <td class="text-center">13:35</td>
+                <td class="text-center">13:45</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lahd"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย ปกติ
+                </td>
+                <td class="text-center">18:05</td>
+                <td class="text-center">18:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnปกติ"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย VIP
+                </td>
+                <td class="text-center">19:05</td>
+                <td class="text-center">19:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnvip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยพัฒนา
+                </td>
+                <td class="text-center">19:05</td>
+                <td class="text-center">19:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnพัฒนา"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสามัคคี
+                </td>
+                <td class="text-center">20:15</td>
+                <td class="text-center">20:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสามัคคี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวอาเซียน
+                </td>
+                <td class="text-center">20:50</td>
+                <td class="text-center">21:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laอาเซียน"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว VIP
+                </td>
+                <td class="text-center">21:15</td>
+                <td class="text-center">21:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lavip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสามัคคี VIP
+                </td>
+                <td class="text-center">21:20</td>
+                <td class="text-center">21:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสาvip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสตาร์ VIP
+                </td>
+                <td class="text-center">21:40</td>
+                <td class="text-center">22:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสตาร์vip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย Extra
+                </td>
+                <td class="text-center">22:05</td>
+                <td class="text-center">22:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnx"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+            -->
+            <tr>
+              <td>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/330/330459.png"
+                  height="25"
+                />
+                ดาวโจนส์
+              </td>
+              <td class="text-center">01.00</td>
+              <td class="text-center">04:10</td>
+              <td class="text-center">
+                <button
+                  type="button"
+                  class="btn btn-sm btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#ดาว"
+                >
+                  Open
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <tr>
+                <td>
+                  
+                  
+                 บ่ทันแล้ว
+                </td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laกาชาด"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    
+
+      <!-- Grid -->
+      <div class="w3-center w3-padding-64" id="about">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          >        หวยหุ้น VIP
+         </span
+        >
+      </div>
+
+        <div class="w3-container">
+          <table class="table table-striped table-bordered table-hover mb-5 shadow">
+            <thead class="table-dark">
+              <tr>
+                <th>ประเภทหวย</th>
+                <th class="text-center">เวลาปิดรับ</th>
+                <th class="text-center">เวลาออกผล</th>
+                <th class="text-center">ข้อมูล</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330622.png"
+                    height="25"
+                  />
+                  นิเคอิ VIP (เช้า)
+                </td>
+                <td class="text-center">08:55</td>
+                <td class="text-center">09:05</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#นชวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330651.png"
+                    height="25"
+                  />
+                  จีน VIP (เช้า)
+                </td>
+                <td class="text-center">09:55</td>
+                <td class="text-center">10:05</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#จชวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330502.png"
+                    height="25"
+                  />
+                  ฮั่งเส็ง VIP (เช้า)
+                </td>
+                <td class="text-center">10:25</td>
+                <td class="text-center">10:35</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ฮชวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330483.png"
+                    height="25"
+                  />
+                  ไต้หวัน VIP
+                </td>
+                <td class="text-center">11:25</td>
+                <td class="text-center">11:35</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ตววี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330591.png"
+                    height="25"
+                  />
+                  เกาหลี VIP
+                </td>
+                <td class="text-center">12:25</td>
+                <td class="text-center">12:35</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#กลวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330622.png"
+                    height="25"
+                  />
+                  นิเคอิ VIP (บ่าย)
+                </td>
+                <td class="text-center">13:15</td>
+                <td class="text-center">13:25</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#นบวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330651.png"
+                    height="25"
+                  />
+                  จีน VIP (บ่าย)
+                </td>
+                <td class="text-center">14:15</td>
+                <td class="text-center">14:25</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#จบวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330502.png"
+                    height="25"
+                  />
+                  ฮั่งเส็ง VIP (บ่าย)
+                </td>
+                <td class="text-center">15:15</td>
+                <td class="text-center">15:25</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ฮบวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330455.png"
+                    height="25"
+                  />
+                  สิงคโปร์ VIP
+                </td>
+                <td class="text-center">16:55</td>
+                <td class="text-center">17:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#สปวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330425.png"
+                    height="25"
+                  />
+                  อังกฤษ VIP
+                </td>
+                <td class="text-center">21:40</td>
+                <td class="text-center">21:50</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#อังวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330523.png"
+                    height="25"
+                  />
+                  เยอรมัน VIP
+                </td>
+                <td class="text-center">22:40</td>
+                <td class="text-center">22:50</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#เยอวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330437.png"
+                    height="25"
+                  />
+                  รัสเซีย VIP
+                </td>
+                <td class="text-center">23:40</td>
+                <td class="text-center">23:50</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#รัสวี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330459.png"
+                    height="25"
+                  />
+                  ดาวโจนส์ VIP
+                </td>
+                <td class="text-center">00:05</td>
+                <td class="text-center">00:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ดาววี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/330/330459.png"
+                    height="25"
+                  />
+                  ดาวโจนส์ STAR⭐
+                </td>
+                <td class="text-center">01:00</td>
+                <td class="text-center">01:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#ดาวสตา"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+
+      
+
+      <!-- Contact -->
+      <div class="w3-center w3-padding-64"  id="contact">
+        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"
+          >หวยอื่นๆ</span
+        >
+      </div>
+
+
+        <div class="w3-container">
+          <table class="table table-bordered table-hover mb-5 shadow">
+            <thead class="table-dark">
+              <tr>
+                <th>ประเภทหวย</th>
+                <th class="text-center">เวลาปิดรับ</th>
+                <th class="text-center">เวลาออกผล</th>
+                <th class="text-center">ข้อมูล</th>
+             </tr>
+            </thead>
+            <tbody>
+           <!--   <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวExtra
+                </td>
+                <td class="text-center">08:20</td>
+                <td class="text-center">08:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lax"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยอาเซียน
+                </td>
+                <td class="text-center">09:05</td>
+                <td class="text-center">09:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnas"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว TV
+                </td>
+                <td class="text-center">10:20</td>
+                <td class="text-center">10:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#latv"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย HD
+                </td>
+                <td class="text-center">11:05</td>
+                <td class="text-center">11:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnhd"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวพิเศษ
+                </td>
+                <td class="text-center">11:50</td>
+                <td class="text-center">12:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lapp"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยสตาร์
+                </td>
+                <td class="text-center">12:05</td>
+                <td class="text-center">12:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnst"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว HD
+                </td>
+                <td class="text-center">13:35</td>
+                <td class="text-center">13:45</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lahd"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย ปกติ
+                </td>
+                <td class="text-center">18:05</td>
+                <td class="text-center">18:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnปกติ"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย VIP
+                </td>
+                <td class="text-center">19:05</td>
+                <td class="text-center">19:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnvip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอยพัฒนา
+                </td>
+                <td class="text-center">19:05</td>
+                <td class="text-center">19:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnพัฒนา"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสามัคคี
+                </td>
+                <td class="text-center">20:15</td>
+                <td class="text-center">20:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสามัคคี"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวอาเซียน
+                </td>
+                <td class="text-center">20:50</td>
+                <td class="text-center">21:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laอาเซียน"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาว VIP
+                </td>
+                <td class="text-center">21:15</td>
+                <td class="text-center">21:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#lavip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสามัคคี VIP
+                </td>
+                <td class="text-center">21:20</td>
+                <td class="text-center">21:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสาvip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197568.png"
+                    height="25"
+                  />
+                  ลาวสตาร์ VIP
+                </td>
+                <td class="text-center">21:40</td>
+                <td class="text-center">22:00</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laสตาร์vip"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/197/197473.png"
+                    height="25"
+                  />
+                  ฮานอย Extra
+                </td>
+                <td class="text-center">22:05</td>
+                <td class="text-center">22:30</td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#vnx"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+  --> 
+                  <tr>
+                 <td>
+                  บ่ทันแล้ว
+                </td>
+                <td class="text-center"></td>
+                <td class="text-center"></td>
+                <td class="text-center">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#laกาชาด"
+                  >
+                    Open
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+  </div>
+    <!--------------------- The Modal ---------------->
+
+    <div class="modal" id="lax">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวExtra  <a class="text-danger"> ใช้ผล5ตัว</a>  <br>
+            ❌ ปิดรับ 08.20 น.<br>
+            ✅ ผลออก ทุกวัน 08.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://laoextra.com/"
+              target="_blank"
+              >https://laoextra.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#lax"
+            >
+              Open
+            </button>
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnas">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอยอาเซียน<br>
+            ❌ ปิดรับ 09.05 น.<br>
+            ✅ ออกผล ทุกวัน 09.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://hanoiasean.com"
+              target="_blank"
+              >https://hanoiasean.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="latv">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวTV 📺 <a class="text-danger">ใช้ผล5ตัว</a> <br >
+            ❌ ปิดรับ 10:20 น.<br >
+            ✅ ผลออก ทุกวัน 10:30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lao-tv.com"
+              target="_blank"
+              >https://lao-tv.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnhd">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอยHD<br>
+            ❌ ปิดรับ 11.05 น.<br>
+            ✅ ออกผล ทุกวัน 11.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://xosohd.com/"
+              target="_blank"
+              >https://xosohd.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="lapp">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวพิเศษ <a class="text-danger"> ใช้ผล4ตัว</a><br>
+            ❌ปิดรับ 11.50 น.<br />
+            ✅ ผลออก ทุกวัน 12.00 น.<br>
+            📌ลิงค์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://laospecial.com/"
+              target="_blank"
+              >https://laospecial.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnst">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอยสตาร์ 🇻🇳<br />
+            ❌ ปิดรับ 12.05 น.<br />
+            ✅ ออกผล ทุกวัน 12.30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://minhngocstar.com/"
+              target="_blank"
+              >https://minhngocstar.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="lahd">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวHD (ใช้ผล 5 ตัว)<br />
+            ❌ ปิดรับ 13.35 น.<br />
+            ✅ ผลออก ทุกวัน 13:45 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://laoshd.com/"
+              target="_blank"
+              >https://laoshd.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vntv">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอย TV<br />
+            ❌ ปิดรับ 14.05 น.<br />
+            ✅ ออกผล ทุกวัน 14.30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://minhngoctv.com/"
+              target="_blank"
+              >https://minhngoctv.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="last">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวสตาร์ ⭐ (ใช้ผล 5 ตัว) <br />
+            ❌ ปิดรับ 15:30 น.<br />
+            ✅ ผลออก ทุกวัน 15:45 น.<br />
+            📌 ลิงค์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.laostars.com/"
+              target="_blank"
+              >https://www.laostars.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnkk">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอยกาชาด<br />
+            ❌ ปิดรับ 16:00 น.<br />
+            ✅ ผลออก ทุกวัน 16:30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://xosoredcross.com/"
+              target="_blank"
+              >https://xosoredcross.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnck">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอยสามัคคี<br />
+            ❌ ปิดรับ 17:05 น.<br />
+            ✅ ออกผล ทุกวัน 17:30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://xosounion.com/"
+              target="_blank"
+              >https://xosounion.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnพิเศษ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳ฮานอย (พิเศษ)🇻🇳<br />
+            ❌ ปิดรับ 17:05 น.<br />
+            ✅ ออกผล ทุกวัน 17.30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.xsthm.com/"
+              target="_blank"
+              >https://www.xsthm.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnปกติ">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳ฮานอย (ปกติ)🇻🇳 <br />
+            ❌ ปิดรับ 18.05 น.<br />
+            ✅ ผลออก ทุกวัน 18.30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.minhngoc.net.vn/xo-so-truc-tiep/mien-bac.html"
+              target="_blank"
+              >https://www.minhngoc.net.vn/xo-so-truc-tiep/mien-bac.html
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="vnvip">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳ฮานอย (VIP)🇻🇳<br />
+            ❌ ปิดรับ 19.05 น.<br />
+            ✅ ผลออก ทุกวัน 19.30 น.<br />
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.mlnhngoc.net/"
+              target="_blank"
+              >https://www.mlnhngoc.net/
+            </a>
+            
+            
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ฮานอยพัฒนา">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳ฮานอยพัฒนา🇻🇳 <br>
+            ❌ ปิดรับ 19.00 น.<br>
+            ✅ ผลออก ทุกวัน 19.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://xosodevelop.com/"
+              target="_blank"
+              >https://xosodevelop.com/
+            </a>
+            
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวสามัคคี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวสามัคคี <a class="text-danger"> ใช้ผล4ตัว</a>  <br>
+            ❌ ปิดรับ 20.15 น.<br>
+            ✅ ผลออก ทุกวัน 20.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href=" https://laounion.com/"
+              target="_blank"
+              > https://laounion.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวอาเซียน">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวอาเซียน <a class="text-danger"> ใช้ผล5ตัว</a>  <br>
+            ❌ ปิดรับ 20.50 น.<br>
+            ✅ ผลออก ทุกวัน 21.00 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lotterylaosasean.com/"
+              target="_blank"
+              >https://lotterylaosasean.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวVIP">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวVIP  <a class="text-danger"> ใช้ผล4ตัว</a>  <br>
+            ❌ ปิดรับ 21.15 น.<br>
+            ✅ ผลออก ทุกวัน 21.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.laosviplot.com/"
+              target="_blank"
+              >https://www.laosviplot.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวสามัคคีVIP">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวสามัคคี VIP <a class="text-danger"> ใช้ผล4ตัว</a>  <br>
+            ❌ ปิดรับ 21.15 น.<br>
+            ✅ ผลออก ทุกวัน 21:30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://laounionvip.com"
+              target="_blank"
+              >https://laounionvip.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal" id="ลาวสตาร์VIP">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวสตาร์VIP⭐️ <a class="text-danger"> ใช้ผล5ตัว</a>  <br>
+            ❌ ปิดรับ 21.40 น.<br>
+            ✅ ผลออก ทุกวัน 22:00 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="http://www.laostarsvip.com"
+              target="_blank"
+              >http://www.laostarsvip.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวกาชาด">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวกาชาด <a class="text-danger"> ใช้ผล5ตัว</a>  <br>
+            ❌ ปิดรับ 23.15 น.<br>
+            ✅ ผลออก ทุกวัน 23.30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href=" https://lao-redcross.com"
+              target="_blank"
+              > https://lao-redcross.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ฮานอยx">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇻🇳 ฮานอย extra<br>
+            ❌ ปิดรับ 22:05 น.<br>
+            ✅ ผลออก ทุกวัน 22:30 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="http://www.xosoextra.com"
+              target="_blank"
+              >http://www.xosoextra.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ลาวอาเซียน">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇱🇦 ลาวอาเซียน <a class="text-danger"> ใช้ผล5ตัว</a>  <br>
+            ❌ ปิดรับ 20.50 น.<br>
+            ✅ ผลออก ทุกวัน 21.00 น.<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lotterylaosasean.com/"
+              target="_blank"
+              >https://lotterylaosasean.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!---vip-->
+
+
+    <div class="modal" id="นชวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇯🇵 นิเคอิเช้า VIP<br>
+            ❌ ปิดรับ 09.00 <br>
+            ✅ ออกผล 09.05<br>
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="http://www.nikkeivipstock.com"
+              target="_blank"
+              >http://www.nikkeivipstock.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="จชวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇨🇳 จีนเช้า VIP <br>
+            ❌ ปิดรับ 10.00 <br>
+            ✅ ออกผล 10.05  <br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://shenzhenindex.com"
+              target="_blank"
+              >https://shenzhenindex.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal" id="ฮชวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+          🇭🇰 ฮั่งเส็งเช้า VIP<br>  
+          ❌ ปิดรับ 10.30 <br>  
+          ✅ ออกผล 10.35 <br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="http://www.hangsengvip.com"
+              target="_blank"
+              >http://www.hangsengvip.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ตววี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇹🇼 ไต้หวัน VIP <br>   
+            ❌ ปิดรับ 11.30  <br>   
+            ✅ ออกผล 11.35 <br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://tsecvipindex.com"
+              target="_blank"
+              >https://tsecvipindex.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="กลวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇰🇷 เกาหลี VIP <br>  
+            ❌ ปิดรับ 12.30  <br>  
+            ✅ ออกผล 12.35 <br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://ktopvipindex.com/"
+              target="_blank"
+              >https://ktopvipindex.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="modal" id="นบวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇯🇵 นิเคอิบ่าย VIP<br>
+            ❌ ปิดรับ 13.20 <br>
+            ✅ ออกผล 13.25<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href=" https://nikkeivipstock.com/"
+              target="_blank"
+              > https://nikkeivipstock.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="จบวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇨🇳 จีนบ่าย VIP<br> 
+            ❌ ปิดรับ 14.20 <br> 
+            ✅ ออกผล 14.25<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://shenzhenindex.com"
+              target="_blank"
+              >https://shenzhenindex.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ฮบวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇭🇰 ฮั่งเส็งบ่าย VIP<br>  
+            ❌ ปิดรับ 15.15 <br>  
+            ✅ ออกผล 15.25<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://hangsengvip.com/"
+              target="_blank"
+              > https://hangsengvip.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="สปวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇸🇬 สิงค์โปร์ VIP<br> 
+            ❌ ปิดรับ 17:00 <br> 
+            ✅ ออกผล ทุกวัน 17:05<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://stocks-vip.com"
+              target="_blank"
+              >https://stocks-vip.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="อังวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇬🇧 อังกฤษVIP <br>
+            ❌ ปิดรับ  21.40 น.<br>
+            ✅ ผลออก 21.50 น.<br>
+            📌 ลิ้งดูผล3รัส VIP 👇🏻👇🏻<br>    
+            
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lottosuperrich.com/"
+              target="_blank"
+              > https://lottosuperrich.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="เยอวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇩🇪 เยอรมัน VIP <br> 
+            ❌ ปิดรับ 22.40 น<br> 
+            ✅ ผลออก 22.50 น.<br> 
+            📌 ลิ้งดูผล3รัส VIP 👇🏻👇🏻<br>    
+            
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lottosuperrich.com/"
+              target="_blank"
+              >https://lottosuperrich.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="รัสวี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇷🇺 รัสเซีย VIP <br>
+            ❌ ปิดรับ 23.40 น.<br>
+            ✅ ผลออก 23.50 น.<br>
+            📌 ลิ้งดูผล3รัส VIP 👇🏻👇🏻<br>    
+            
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://lottosuperrich.com/"
+              target="_blank"
+              >https://lottosuperrich.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ดาววี">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇺🇸 ดาวโจนส์ vip <br>
+            ❌ ปิดรับ 00.05 น.<br>
+            ✅ ผลออก ทุกวัน 00.30 น.<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://dowjonespowerball.com"
+              target="_blank"
+              >https://dowjonespowerball.com
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ดาว">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇺🇸 หุ้นดาวโจนส์ 🇺🇸<br>
+            ❌ ปิดรับ 01.00 น.<br>
+            ✅ ผลออก จันทร์-ศุกร์ 04.10 น.<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://www.marketwatch.com/investing/index/djia"
+              target="_blank"
+              >https://www.marketwatch.com/investing/index/djia
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="ดาวสตา">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal body -->
+          <div class="modal-body">
+            🇺🇸 ดาวโจนส์star ⭐<br>
+            ❌ ปิดรับ 01.05 น.<br>
+            ✅ ผลออก ทุกวัน 01.30 น.<br>    
+            📌 ลิงก์ดูผล
+            <a
+              class="sub-hilight"
+              style="color: #007bff !important"
+              href="https://dowjonestar.com/"
+              target="_blank"
+              >https://dowjonestar.com/
+            </a>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-sm btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <!-- Footer -->
+
+    <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+      
+      <a href="#" class="w3-button w3-black w3-margin"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a
+      >
+      <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+      <p>
+        Powered by
+        <a
+          href="####"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >idea</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // Slideshow
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function currentDiv(n) {
+        showDivs((slideIndex = n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demodots");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-white";
+      }
+    </script>
+  </body>
+</html>
